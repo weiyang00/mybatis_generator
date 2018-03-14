@@ -1,0 +1,7 @@
+教程链接：http://blog.csdn.net/hua_faded/article/details/78900780
+
+在Intellij IDEA添加一个“Run运行”选项：
+step1，点击 菜单run中Edit Configurations；
+step2，点击+号，选择maven；
+step3，在 name 和 Commond line 分别填上 generator 和 mybatis-generator:generate -e ，点击 apply 和 ok；
+step4，最后点击run generator，生成model，mapper，dao。
