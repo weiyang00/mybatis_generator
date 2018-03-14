@@ -3,3 +3,4 @@ target
 *.iml
 classes
 /src/main/webapp/*
+*.patch
