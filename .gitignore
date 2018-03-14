@@ -4,3 +4,6 @@ target
 classes
 /src/main/webapp/*
 *.patch
+/src/main/java/com/generator/dao/*
+/src/main/java/com/generator/entities/*
+/src/main/java/com/generator/mapper/*
