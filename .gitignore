@@ -2,4 +2,4 @@ target
 /.idea
 *.iml
 classes
-src/main/java/webapp
+/src/main/webapp/*

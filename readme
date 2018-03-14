@@ -5,3 +5,7 @@ step1，点击 菜单run中Edit Configurations；
 step2，点击+号，选择maven；
 step3，在 name 和 Commond line 分别填上 generator 和 mybatis-generator:generate -e ，点击 apply 和 ok；
 step4，最后点击run generator，生成model，mapper，dao。
+
+
+注意: plugin 中引入的mysql-connector-java-5.1.36.jar只能用5.1.36版本，其他版本可能报错。若非要使用其他版本，可在generatorConfig.xml
+中加入 <classPathEntry location="${jdbc.driverLocation} （已注释），以导入generator.properties中的本地mysql-connector-java-5.1.36.jar。
