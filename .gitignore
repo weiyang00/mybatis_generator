@@ -4,3 +4,5 @@ target
 classes
 /src/main/webapp/*
 *.patch
+
+/generator.propeties
